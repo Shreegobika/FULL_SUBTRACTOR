@@ -25,6 +25,7 @@ STEP:7 compare the output with truth table
 ![image](https://github.com/RESMIRNAIR/FULL_SUBTRACTOR/assets/154305926/906152b8-63bc-4f70-9132-6b6b4420b22d)
 ![image](https://github.com/RESMIRNAIR/FULL_SUBTRACTOR/assets/154305926/7d480140-153a-4a7e-a6d2-5323c6bd4974)
 # VERILOG CODE:
+```
 module full_sub(a,b,bin,diff,borrow);
 
 input a,b,bin;
@@ -44,6 +45,7 @@ or g4(borrow,w2,w3);
 and g5(w3,~w1,bin);
 
 endmodule
+```
 
 # OUTPUT:
 ![image](https://github.com/Shreegobika/FULL_SUBTRACTOR/assets/160569525/52af793d-af3a-40b6-a8ef-3d029eabee0a)
